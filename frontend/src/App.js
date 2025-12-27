@@ -1,52 +1,49 @@
-import { useEffect } from "react";
-import "@/App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import axios from "axios";
+import React, { useEffect } from 'react';
+import '@/App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import axios from 'axios';
+import Home from '@/pages/Home';
+import Restaurants from '@/pages/Restaurants';
+import MenuPage from '@/pages/MenuPage';
+import Excursions from '@/pages/Excursions';
+import Entertainment from '@/pages/Entertainment';
+import Services from '@/pages/Services';
+import InternetPackages from '@/pages/InternetPackages';
+import KioskMode from '@/pages/KioskMode';
+import AdminDashboard from '@/pages/AdminDashboard';
+import { Toaster } from '@/components/ui/sonner';
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
 
-const Home = () => {
-  const helloWorldApi = async () => {
-    try {
-      const response = await axios.get(`${API}/`);
-      console.log(response.data.message);
-    } catch (e) {
-      console.error(e, `errored out requesting / api`);
-    }
-  };
-
+function App() {
   useEffect(() => {
-    helloWorldApi();
+    const initData = async () => {
+      try {
+        await axios.post(`${API}/init-data`);
+      } catch (e) {
+        console.log('Init data:', e.message);
+      }
+    };
+    initData();
   }, []);
 
-  return (
-    <div>
-      <header className="App-header">
-        <a
-          className="App-link"
-          href="https://emergent.sh"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="https://avatars.githubusercontent.com/in/1201222?s=120&u=2686cf91179bbafbc7a71bfbc43004cf9ae1acea&v=4" />
-        </a>
-        <p className="mt-5">Building something incredible ~!</p>
-      </header>
-    </div>
-  );
-};
-
-function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />}>
-            <Route index element={<Home />} />
-          </Route>
+          <Route path="/" element={<Home />} />
+          <Route path="/restaurants" element={<Restaurants />} />
+          <Route path="/menu/:restaurantId" element={<MenuPage />} />
+          <Route path="/excursions" element={<Excursions />} />
+          <Route path="/entertainment" element={<Entertainment />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/packages" element={<InternetPackages />} />
+          <Route path="/kiosk" element={<KioskMode />} />
+          <Route path="/admin" element={<AdminDashboard />} />
         </Routes>
       </BrowserRouter>
+      <Toaster />
     </div>
   );
 }
