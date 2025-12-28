@@ -128,10 +128,10 @@ const Home = () => {
         >
           <Wifi className="h-16 w-16 text-gold mx-auto mb-6" />
           <h3 className="font-heading text-3xl md:text-4xl text-white mb-4">
-            Rimani Connesso
+            {t('home.stayConnected')}
           </h3>
           <p className="text-lg text-slate-400 mb-8 max-w-2xl mx-auto">
-            Scegli tra i nostri pacchetti internet Premium e Pro per rimanere in contatto con il mondo
+            {t('home.stayConnectedDesc')}
           </p>
           <Link to="/packages">
             <motion.button
@@ -140,7 +140,7 @@ const Home = () => {
               className="px-8 py-4 bg-gold text-slate-950 rounded-full font-medium text-lg hover:bg-gold-light transition-colors duration-300 shadow-xl glow-gold"
               data-testid="view-packages-button"
             >
-              Visualizza Pacchetti
+              {t('home.viewPackages')}
             </motion.button>
           </Link>
         </motion.div>
