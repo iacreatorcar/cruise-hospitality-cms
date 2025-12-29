@@ -147,6 +147,7 @@ const Home = () => {
         </motion.div>
       </div>
 
+      <Footer />
       <Navigation />
       <ChatBot />
     </div>
