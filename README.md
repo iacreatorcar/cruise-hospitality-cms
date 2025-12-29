@@ -49,68 +49,30 @@
 
 ---
 
-## 🚀 Getting Started
-
-```bash
-# Clone repository
-git clone https://github.com/iacreatorcar/cruise-hospitality-cms.git
-cd cruise-hospitality-cms
-
-# Backend
-cd backend && pip install -r requirements.txt && uvicorn server:app --reload
-
-# Frontend  
-cd frontend && yarn install && yarn start
-```
-
-Visit `http://localhost:3000` • Configure environment variables in `.env` files
-
----
-
 ## 🎨 Design Philosophy
 
-Luxury cruise aesthetic featuring:
-- Deep navy (#020617) with gold accents (#d4af37)
-- Glassmorphism effects with 24px blur
-- Playfair Display + Manrope typography
-- Smooth micro-interactions
+Luxury cruise aesthetic featuring deep navy (#020617) with gold accents (#d4af37), glassmorphism effects, and smooth micro-interactions.
 
 ---
 
-## 🌐 Internationalization
+## 🌐 Multi-Language Support
 
-- 🇮🇹 Italian (Italiano)
-- 🇬🇧 English  
-
-Seamless language switching on all pages.
-
----
-
-## 📁 Structure
-
-```
-cruise-hospitality-cms/
-├── backend/          # FastAPI server, AI integration, MongoDB models
-├── frontend/         # React components, pages, i18n translations  
-└── README.md         # This file
-```
+🇮🇹 Italian • 🇬🇧 English
 
 ---
 
 ## 📄 License
 
-MIT License © 2025 - See [LICENSE](LICENSE) file
+MIT License © 2025
 
 ---
 
 ## 👨‍💻 Author
 
-**Carmine D'Alise**  
+**Carmine D'Alise**
+
 💼 [LinkedIn](https://www.linkedin.com/in/carmine-d-alise-3b25024b) • 🐙 [GitHub](https://github.com/iacreatorcar)
 
 ---
 
-<p align="center">
-  <em>Built with <a href="https://emergent.sh">Emergent AI Platform</a></em><br/>
-  ⚓ Setting sail with the future of cruise hospitality ⚓
-</p>
+<p align="center">⚓ <em>Luxury hospitality meets modern technology</em> ⚓</p>
