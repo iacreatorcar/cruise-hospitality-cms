@@ -11,6 +11,7 @@
 - Full-Stack Developer
 - Specializzazione: React, FastAPI, AI Integration
 - GitHub: [@iacreatorcar](https://github.com/iacreatorcar)
+- LinkedIn: [Carmine D'Alise](https://www.linkedin.com/in/carmine-d-alise-3b25024b)
 - Repository: [cruise-hospitality-cms](https://github.com/iacreatorcar/cruise-hospitality-cms)
 
 ---
