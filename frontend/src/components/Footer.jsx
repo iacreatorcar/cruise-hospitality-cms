@@ -64,7 +64,7 @@ export const Footer = () => {
               <Github className="h-5 w-5 text-slate-400 hover:text-white" />
             </a>
             <a
-              href="https://linkedin.com/in/carmine-dalise"
+              href="https://www.linkedin.com/in/carmine-d-alise-3b25024b"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:bg-white/5 transition-colors"
