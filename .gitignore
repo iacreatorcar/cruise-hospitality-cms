@@ -71,21 +71,31 @@ credentials.json
 service-account.json
 
 # ========================================
-# GUIDE PERSONALI - NON SU GITHUB
+# GUIDE PERSONALI E FILE INTERNI - NON SU GITHUB
 # ========================================
 GUIDA_GITHUB_PASSO_PASSO.md
 COSA_VA_SU_GITHUB.md
 COME_SALVARE_SU_GITHUB.md
 PRESENTAZIONE_PORTFOLIO.md
+GUIDA_APK_MOBILE.md
+REPOSITORY_STRUCTURE.md
+ISTRUZIONI_RIMOZIONE_URGENTE.md
 guide_personali/
 *.backup.md
+
+# File interni Emergent
+.emergent/
+rimuovi_file_personali.sh
+design_guidelines.json
+backend_test.py
+test_result.md
+app.code-workspace
 
 # ========================================
 # FILE DA MANTENERE SU GITHUB:
 # - README.md (vetrina progetto)
-# - DEPLOYMENT.md (guida deploy)
+# - DEPLOYMENT.md (guida deploy)  
 # - PROJECT_ARCHITECTURE.md (documentazione tecnica)
-# - GUIDA_APK_MOBILE.md (documentazione tecnica)
 # - LICENSE (licenza)
 # ========================================
 
