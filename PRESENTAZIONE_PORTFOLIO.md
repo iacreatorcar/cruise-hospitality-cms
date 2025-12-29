@@ -328,7 +328,7 @@ docker-compose up -d
 **Carmine D'Alise**
 - 📧 Email: carmine.dalise@example.com
 - 🔗 GitHub: [github.com/iacreatorcar](https://github.com/iacreatorcar)
-- 💼 LinkedIn: [linkedin.com/in/carmine-dalise](https://linkedin.com/in/carmine-dalise)
+- 💼 LinkedIn: [Carmine D'Alise](https://www.linkedin.com/in/carmine-d-alise-3b25024b)
 - 🌐 Portfolio: [your-portfolio.com](https://your-portfolio.com)
 
 ---
