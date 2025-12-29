@@ -66,23 +66,21 @@ cruise-hospitality-cms/
 ## 🚀 Quick Start
 
 ```bash
-# Clone repository
 git clone https://github.com/iacreatorcar/cruise-hospitality-cms.git
+cd cruise-hospitality-cms
 
-# Backend
-cd backend
-pip install -r requirements.txt
-cp .env.example .env  # Configure your environment
+# Backend setup
+cd backend && pip install -r requirements.txt
 uvicorn server:app --reload
 
-# Frontend
-cd frontend
-yarn install
-cp .env.example .env  # Configure backend URL
+# Frontend setup
+cd frontend && yarn install
 yarn start
 ```
 
-**Note:** Requires MongoDB running locally or connection string in `.env`
+Visit `http://localhost:3000` to see the application.
+
+> **Note:** Configure `.env` files in both backend and frontend directories with your credentials. See `.env.example` for reference.
 
 ---
 
