@@ -78,9 +78,33 @@ MIT License © 2025
 <p align="center">⚓ <em>Luxury hospitality meets modern technology</em> ⚓</p>
 
 ---
+---
+
+## 📄 License & Legal Notice
+
+This project is a **Custom Implementation** built upon the Emergent architecture.
+
+- **Configuration & Content:** [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) © 2024-2026 Carmine D'Alise.
+- **Engine:** Powered by Emergent Architecture.
+- **Privacy:** As a demo hosted on Emergent/Vercel infrastructure, no sensitive personal data is stored. AI interactions are governed by OpenAI's privacy terms.
+- **Restrictions:** Commercial use, redistribution, or replication of the logical architecture without explicit authorization is strictly prohibited.
+
+---
+
+## 👨‍💻 Author
+
+**Carmine D'Alise**
+
+💼 [LinkedIn](https://www.linkedin.com/in/carmine-d-alise-3b25024b) • 🐙 [GitHub](https://github.com/iacreatorcar)
+
+---
+
 ## 🔗 Project Context & Ecosystem
 
 This CMS is a vertical solution specifically engineered for the luxury cruise industry. It is classified as an **Emergent App** within my professional hub:
 
 > **The Bridge Portfolio:** [the-bridge-portfolio.vercel.app](https://the-bridge-portfolio.vercel.app)
 
+---
+
+<p align="center">⚓ <em>Luxury hospitality meets modern technology</em> ⚓</p>
